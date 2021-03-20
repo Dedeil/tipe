@@ -122,21 +122,7 @@ def verifSontPremier(x,y):
             print(str(x)+" et "+str(y)+" ne sont pas premier entre eux!")
             return False
     return True
-'''
-def indicatriceEuler(n):
-    np=0
-    moitie=ceil(n/2)
-    for loop in range(1,n+1):
-        i,var=2,True
-        while i<=moitie and i<=loop:
-            if loop%i==0 and n%i==0:
-                var=False
-                break
-            i+=1
-        if var==True:
-            np+=1
-    return np
-'''
+
 def demarrer():
     msg=entryVarMsg.get()
     e=entryVarE.get()
